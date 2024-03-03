@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    color:black;
+    background-color: #c6854c;
+    text-align: center;
+}
+.love, .yes, .no 
+{
+    padding-top: 10%;
+    
+}
+#no
+{
+    color: black;
+
+}
+#yes{
+    color: pink;
+}
+.love a{
+    padding: 5px;
+    margin: 5px 10px;
+    background: #dac5b3;
+    border-radius: 20%;
+    color:chocolate;
+}
+
+h2{
+    margin-bottom:20px;
+}
+.no h2{
+    color:blue;
+}
+img
+{
+    height:50px;
+    width: 50px;
+    animation: traitym 4s linear infinite;
+}
+h2
+{
+    font-size: 72px;
+}
+@keyframes traitym{
+    0%{transform: scale(.5);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(.5);}
+}
